@@ -1,7 +1,6 @@
 import { defineConfig } from "vite";
 
-// GitHub Pages: https://mauroj13.github.io/portfolio/
-// Heisst dein Repository anders, hier den Namen anpassen.
+// Relative Pfade: funktioniert auf GitHub Pages egal wie das Repository heisst
 export default defineConfig({
-  base: "/portfolio/",
+  base: "./",
 });

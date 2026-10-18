@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Danach im Browser öffnen: http://localhost:5173/portfolio/
+Danach im Browser öffnen: http://localhost:5173/
 
 ## Build
 
@@ -24,7 +24,7 @@ npm run preview   # Build lokal ansehen
 2. Auf GitHub: **Settings → Pages → Source: GitHub Actions** wählen.
 3. Der Workflow `.github/workflows/deploy.yml` baut und veröffentlicht die Seite bei jedem Push automatisch.
 
-Die Seite ist dann erreichbar unter https://mauroj13.github.io/portfolio/
+Die Seite ist dann erreichbar unter https://mauroj13.github.io/Portfolio/
 
 Heisst das Repository anders, in `vite.config.js` den Wert von `base` anpassen.
 
