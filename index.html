@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Mauro Jakic · Frontend Developer</title>
+    <meta name="description" content="Portfolio von Mauro Jakic, Frontend Developer aus Luzern." />
+    <link rel="icon" type="image/webp" href="/bilder/profile.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" />
+  </head>
+  <body>
+<!-- Hintergrund -->
+<div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-[900px] overflow-hidden">
+  <div class="grid-bg absolute inset-0"></div>
+  <div class="blob absolute -top-40 left-[10%] h-96 w-96 rounded-full bg-blue-600"></div>
+  <div class="blob absolute top-20 right-[5%] h-80 w-80 rounded-full bg-green-500"></div>
+</div>
+
+<!-- Navigation -->
+<header class="site-nav sticky z-50 gutter">
+  <nav class="glass mx-auto max-w-5xl flex items-center justify-between rounded-full pl-5 pr-2 py-2">
+    <a href="#start" class="font-extrabold tracking-tight">mauro<span class="grad">.dev</span></a>
+    <div class="flex items-center gap-1 sm:gap-2 text-sm">
+      <a href="#projects" class="hidden sm:block rounded-full px-3 py-2 text-slate-400 hover:text-white transition">Projekte</a>
+      <a href="#about" class="hidden sm:block rounded-full px-3 py-2 text-slate-400 hover:text-white transition">Über mich</a>
+      <a href="#contact" class="rounded-full bg-white text-slate-950 font-semibold px-4 py-2 hover:bg-slate-200 transition">Kontakt</a>
+    </div>
+  </nav>
+</header>
+
+<main id="start" class="relative">
+  <!-- Hero -->
+  <section class="gutter">
+    <div class="mx-auto max-w-6xl pt-16 pb-20 lg:pt-24 lg:pb-28 grid lg:grid-cols-[1.1fr_1fr] gap-14 lg:gap-16 items-center">
+      <div class="min-w-0">
+        <div class="glass inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs sm:text-sm text-slate-300">
+          <span class="pulse-dot h-2 w-2 rounded-full bg-green-500"></span>
+          Offen für neue Projekte · Luzern
+        </div>
+        <div class="mt-8 flex items-center gap-4">
+          <img src="/bilder/profile.webp" alt="Mauro Jakic" class="h-14 w-14 rounded-2xl object-cover ring-1 ring-white/15">
+          <div>
+            <div class="font-semibold">Mauro Jakic</div>
+            <div class="text-sm text-slate-400">Frontend Developer</div>
+          </div>
+        </div>
+        <h1 class="mt-6 text-[2.6rem] leading-[1.05] sm:text-6xl lg:text-7xl font-extrabold tracking-tight">
+          Ihr neuer<br><span class="grad">Frontend Developer.</span>
+        </h1>
+        <p class="mt-6 text-slate-400 text-lg max-w-xl leading-relaxed">
+          Ich habe meine Weiterbildung zum Frontend Developer bei <span class="text-white font-medium">DevKarriere.de</span> abgeschlossen und baue moderne Webseiten und Web-Apps. Mein Fokus liegt auf sauberem Code und einem präzisen Endergebnis, bis ins letzte Detail.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#projects" class="inline-flex items-center gap-2 rounded-xl bg-blue-600 hover:bg-blue-500 transition px-5 py-3 font-semibold shadow-lg shadow-blue-600/25">
+            Projekte ansehen
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3"/></svg>
+          </a>
+          <a href="https://wa.me/41782376191" target="_blank" rel="noopener" class="glass inline-flex items-center gap-2 rounded-xl px-5 py-3 font-semibold hover:border-green-500/50 transition">
+            <svg class="h-5 w-5 fill-green-500" viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.8h-.01a9.8 9.8 0 0 1-5-1.37l-.36-.21-3.72.98.99-3.63-.23-.37a9.82 9.82 0 0 1-1.5-5.24c0-5.43 4.42-9.84 9.85-9.84a9.8 9.8 0 0 1 6.96 2.89 9.78 9.78 0 0 1 2.88 6.96c0 5.43-4.42 9.84-9.84 9.84zm8.38-18.22A11.77 11.77 0 0 0 12.05.1C5.5.1.18 5.42.18 11.96c0 2.09.55 4.13 1.59 5.93L.08 24l6.27-1.64a11.84 11.84 0 0 0 5.69 1.45h.01c6.54 0 11.86-5.32 11.87-11.86a11.8 11.8 0 0 0-3.49-8.38z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Editor-Karte statt Logo-Grafik -->
+      <div class="min-w-0 relative">
+        <div class="absolute -inset-4 rounded-[2rem] bg-gradient-to-tr from-blue-600/20 to-green-500/20 blur-2xl" aria-hidden="true"></div>
+        <div class="relative glass rounded-2xl overflow-hidden shadow-2xl shadow-black/50">
+          <div class="flex items-center gap-2 px-4 py-3 border-b border-white/10">
+            <span class="h-3 w-3 rounded-full bg-[#ff5f57]"></span><span class="h-3 w-3 rounded-full bg-[#febc2e]"></span><span class="h-3 w-3 rounded-full bg-[#28c840]"></span>
+            <span class="mono ml-3 text-xs text-slate-400">mauro.ts</span>
+          </div>
+          <pre class="mono text-[12.5px] sm:text-sm leading-7 p-5 sm:p-6 overflow-x-auto"><code><span class="text-slate-500">// Frontend Developer aus Luzern</span>
+<span class="text-purple-400">const</span> <span class="text-blue-300">mauro</span> <span class="text-slate-400">=</span> {
+  rolle<span class="text-slate-400">:</span> <span class="text-green-400">"Frontend Developer"</span>,
+  weiterbildung<span class="text-slate-400">:</span> <span class="text-green-400">"DevKarriere.de"</span>,
+  stack<span class="text-slate-400">:</span> [<span class="text-green-400">"React"</span>, <span class="text-green-400">"TypeScript"</span>, <span class="text-green-400">"SCSS"</span>, <span class="text-green-400">"Tailwind"</span>],
+  fokus<span class="text-slate-400">:</span> <span class="text-green-400">"sauber &amp; präzise"</span>,
+  verfügbar<span class="text-slate-400">:</span> <span class="text-orange-300">true</span>,
+};<span class="caret" aria-hidden="true"></span></code></pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tech-Leiste -->
+    <div class="mx-auto max-w-6xl">
+      <p class="text-xs uppercase tracking-[0.2em] text-slate-500">Womit ich arbeite</p>
+      <div class="mt-4 flex flex-wrap gap-2.5">
+        <span class="glass rounded-full px-4 py-2 text-sm inline-flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[#61dafb]"></span>React</span>
+        <span class="glass rounded-full px-4 py-2 text-sm inline-flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[#3178c6]"></span>TypeScript</span>
+        <span class="glass rounded-full px-4 py-2 text-sm inline-flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[#f7df1e]"></span>JavaScript</span>
+        <span class="glass rounded-full px-4 py-2 text-sm inline-flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[#e34f26]"></span>HTML</span>
+        <span class="glass rounded-full px-4 py-2 text-sm inline-flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[#2965f1]"></span>CSS</span>
+        <span class="glass rounded-full px-4 py-2 text-sm inline-flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[#cc6699]"></span>SCSS</span>
+        <span class="glass rounded-full px-4 py-2 text-sm inline-flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[#38bdf8]"></span>Tailwind CSS</span>
+        <span class="glass rounded-full px-4 py-2 text-sm inline-flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[#a855f7]"></span>Vite</span>
+        <span class="glass rounded-full px-4 py-2 text-sm inline-flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[#f05032]"></span>Git &amp; GitHub</span>
+        <span class="glass rounded-full px-4 py-2 text-sm inline-flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[#3ecf8e]"></span>Supabase</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projekte -->
+  <section id="projects" class="gutter scroll-mt-24">
+    <div class="mx-auto max-w-6xl pt-28 lg:pt-36">
+      <div class="flex flex-wrap items-end justify-between gap-4">
+        <div>
+          <p class="text-xs uppercase tracking-[0.2em] text-blue-400">Portfolio</p>
+          <h2 class="mt-3 text-4xl lg:text-5xl font-extrabold tracking-tight">Meine Projekte</h2>
+        </div>
+        <p class="text-slate-400 max-w-md">Auszüge aus meiner Arbeit, damit Sie sich ein Bild meiner Fähigkeiten und Erfahrungen machen können.</p>
+      </div>
+
+      <!-- LinguaAI -->
+      <article class="lift glass mt-12 rounded-3xl p-3 sm:p-4 grid lg:grid-cols-[1.35fr_1fr] gap-6 lg:gap-10 items-center">
+        <a href="https://mauroj13.github.io/LinguaAI/" target="_blank" rel="noopener" class="shot block overflow-hidden rounded-2xl ring-1 ring-white/10">
+          <img src="/bilder/lingua.webp" alt="Screenshot von LinguaAI: Startseite mit Sprachauswahl" class="w-full">
+        </a>
+        <div class="min-w-0 px-3 pb-5 lg:px-2 lg:pr-8 lg:pb-0">
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="rounded-full bg-gradient-to-r from-blue-600 to-green-600 px-3 py-1 text-xs font-semibold">Abschlussprojekt DevKarriere</span>
+            <span class="rounded-full bg-white/5 ring-1 ring-white/10 px-3 py-1 text-xs text-slate-300">KI-Web-App</span>
+          </div>
+          <h3 class="mt-4 text-3xl font-extrabold tracking-tight">LinguaAI</h3>
+          <p class="mt-3 text-slate-400 leading-relaxed">
+            Eine KI-Sprachlern-App: Man chattet mit einer KI-Lehrerin in einer von 20 Sprachen. Sie schreibt genau auf dem gewählten Niveau (A1 bis C2), korrigiert Fehler, übersetzt jede Antwort und liest sie laut vor.
+          </p>
+          <ul class="mt-4 space-y-2 text-sm text-slate-300">
+            <li class="flex gap-2.5"><span class="text-green-400">✓</span>Echte KI-Antworten ohne API-Schlüssel</li>
+            <li class="flex gap-2.5"><span class="text-green-400">✓</span>Fehlerkorrektur und Tipps in einer Lernhilfe-Sidebar</li>
+            <li class="flex gap-2.5"><span class="text-green-400">✓</span>Eingebauter Übersetzer, Sprachausgabe und Dark Mode</li>
+          </ul>
+          <div class="mt-5 flex flex-wrap gap-2 mono text-xs text-slate-300">
+            <span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">React</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">TypeScript</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">SCSS</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">Vite</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">KI-API</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">Web Speech API</span>
+          </div>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="https://mauroj13.github.io/LinguaAI/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-blue-600 hover:bg-blue-500 transition px-4 py-2.5 text-sm font-semibold">Live ansehen ↗</a>
+            <a href="https://github.com/MauroJ13/LinguaAI" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-white/5 ring-1 ring-white/10 hover:ring-white/30 transition px-4 py-2.5 text-sm font-semibold">Code ansehen</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Devboard -->
+      <article class="lift glass mt-6 rounded-3xl p-3 sm:p-4 grid lg:grid-cols-[1fr_1.35fr] gap-6 lg:gap-10 items-center">
+        <a href="https://mauroj13.github.io/Devboard/" target="_blank" rel="noopener" class="shot block overflow-hidden rounded-2xl ring-1 ring-white/10 lg:order-2">
+          <img src="/bilder/devboard.webp" alt="Screenshot von Devboard: Kanban-Board mit den Spalten To Do, In Progress und Done" class="w-full">
+        </a>
+        <div class="min-w-0 px-3 pb-5 lg:pl-8 lg:pr-2 lg:pb-0">
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="rounded-full bg-white/5 ring-1 ring-white/10 px-3 py-1 text-xs text-slate-300">Task-Management</span>
+            <span class="rounded-full bg-white/5 ring-1 ring-white/10 px-3 py-1 text-xs text-slate-300">Datenbank</span>
+          </div>
+          <h3 class="mt-4 text-3xl font-extrabold tracking-tight">Devboard</h3>
+          <p class="mt-3 text-slate-400 leading-relaxed">
+            Eine Kanban-App für Teams: Boards anlegen, Aufgaben per Drag &amp; Drop zwischen „To Do“, „In Progress“ und „Done“ verschieben, Team-Mitgliedern zuweisen und mit Deadlines versehen.
+          </p>
+          <ul class="mt-4 space-y-2 text-sm text-slate-300">
+            <li class="flex gap-2.5"><span class="text-green-400">✓</span>Drag &amp; Drop zwischen den Spalten</li>
+            <li class="flex gap-2.5"><span class="text-green-400">✓</span>Team, Profil und Zuweisung von Aufgaben</li>
+            <li class="flex gap-2.5"><span class="text-green-400">✓</span>Speichert lokal oder synchronisiert über Supabase</li>
+          </ul>
+          <div class="mt-5 flex flex-wrap gap-2 mono text-xs text-slate-300">
+            <span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">React</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">TypeScript</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">Tailwind CSS</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">shadcn/ui</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">React Router</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">Supabase</span>
+          </div>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="https://mauroj13.github.io/Devboard/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-blue-600 hover:bg-blue-500 transition px-4 py-2.5 text-sm font-semibold">Live ansehen ↗</a>
+            <a href="https://github.com/MauroJ13/Devboard" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-white/5 ring-1 ring-white/10 hover:ring-white/30 transition px-4 py-2.5 text-sm font-semibold">Code ansehen</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="mt-6 grid gap-6 md:grid-cols-2">
+        <!-- Wetter App -->
+        <article class="lift glass rounded-3xl p-3 sm:p-4 flex flex-col min-w-0">
+          <a href="https://mauroj13.github.io/Wetter-App/" target="_blank" rel="noopener" class="shot block overflow-hidden rounded-2xl ring-1 ring-white/10">
+            <img src="/bilder/wetter.webp" alt="Screenshot der Wetter App mit Städteliste und Detailansicht" class="w-full aspect-video object-cover object-top">
+          </a>
+          <div class="px-3 pt-6 pb-4 flex flex-col flex-1">
+            <span class="self-start rounded-full bg-white/5 ring-1 ring-white/10 px-3 py-1 text-xs text-slate-300">Web-App · API</span>
+            <h3 class="mt-4 text-2xl font-extrabold tracking-tight">Moderne Wetter App</h3>
+            <p class="mt-3 text-slate-400 leading-relaxed">
+              Aktuelle Wetterdaten für Städte auf der ganzen Welt, mit stündlicher Vorhersage und Vorschau für die nächsten Tage. Mobile-first entwickelt; der Hintergrund passt sich Wetter und Tageszeit an, und Orte lassen sich als Favoriten speichern.
+            </p>
+            <div class="mt-5 flex flex-wrap gap-2 mono text-xs text-slate-300">
+              <span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">JavaScript</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">SCSS</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">BEM</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">Vite</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">WeatherAPI</span>
+            </div>
+            <div class="mt-auto pt-6 flex flex-wrap gap-3">
+              <a href="https://mauroj13.github.io/Wetter-App/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-blue-600 hover:bg-blue-500 transition px-4 py-2.5 text-sm font-semibold">Live ansehen ↗</a>
+              <a href="https://github.com/MauroJ13/Wetter-App" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-white/5 ring-1 ring-white/10 hover:ring-white/30 transition px-4 py-2.5 text-sm font-semibold">Code ansehen</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pizzeria -->
+        <article class="lift glass rounded-3xl p-3 sm:p-4 flex flex-col min-w-0">
+          <a href="https://mauroj13.github.io/Pizzeria-Mamma-Mia/" target="_blank" rel="noopener" class="shot block overflow-hidden rounded-2xl ring-1 ring-white/10">
+            <img src="/bilder/pizzeria.webp" alt="Screenshot der Pizzeria Mamma Mia Webseite" class="w-full aspect-video object-cover object-top">
+          </a>
+          <div class="px-3 pt-6 pb-4 flex flex-col flex-1">
+            <span class="self-start rounded-full bg-white/5 ring-1 ring-white/10 px-3 py-1 text-xs text-slate-300">Restaurant-Webseite</span>
+            <h3 class="mt-4 text-2xl font-extrabold tracking-tight">Pizzeria Mamma Mia</h3>
+            <p class="mt-3 text-slate-400 leading-relaxed">
+              Ein moderner One-Pager in dunklem Design mit eigener Speisekarten-Seite. Das Layout soll Besucher ins Restaurant locken: Über uns, Öffnungszeiten und Kontakt sind sofort erreichbar. Responsive für alle gängigen Bildschirmgrößen.
+            </p>
+            <div class="mt-5 flex flex-wrap gap-2 mono text-xs text-slate-300">
+              <span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">HTML</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">CSS</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">Responsive Design</span>
+            </div>
+            <div class="mt-auto pt-6 flex flex-wrap gap-3">
+              <a href="https://mauroj13.github.io/Pizzeria-Mamma-Mia/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-blue-600 hover:bg-blue-500 transition px-4 py-2.5 text-sm font-semibold">Live ansehen ↗</a>
+              <a href="https://github.com/MauroJ13/Pizzeria-Mamma-Mia" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-white/5 ring-1 ring-white/10 hover:ring-white/30 transition px-4 py-2.5 text-sm font-semibold">Code ansehen</a>
+            </div>
+          </div>
+        </article>
+        <article class="lift glass rounded-3xl p-3 sm:p-4 flex flex-col min-w-0">
+          <a href="https://mauroj13.github.io/nutzerverwaltung/" target="_blank" rel="noopener" class="shot block overflow-hidden rounded-2xl ring-1 ring-white/10">
+            <img src="/bilder/nutzer.webp" alt="Screenshot der Nutzerverwaltung mit Nutzerkarten" class="w-full aspect-video object-cover object-top">
+          </a>
+          <div class="px-3 pt-6 pb-4 flex flex-col flex-1">
+            <span class="self-start rounded-full bg-white/5 ring-1 ring-white/10 px-3 py-1 text-xs text-slate-300">React-App</span>
+            <h3 class="mt-4 text-2xl font-extrabold tracking-tight">Nutzerverwaltung</h3>
+            <p class="mt-3 text-slate-400 leading-relaxed">
+              Nutzer anlegen, bearbeiten und löschen, mit Profilbild, Kontaktdaten und Formularvalidierung. Der Zustand läuft über useReducer und Context und bleibt im Browser gespeichert.
+            </p>
+            <div class="mt-5 flex flex-wrap gap-2 mono text-xs text-slate-300">
+              <span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">React</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">TypeScript</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">SCSS</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">React Router</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">useReducer</span>
+            </div>
+            <div class="mt-auto pt-6 flex flex-wrap gap-3">
+              <a href="https://mauroj13.github.io/nutzerverwaltung/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-blue-600 hover:bg-blue-500 transition px-4 py-2.5 text-sm font-semibold">Live ansehen ↗</a>
+              <a href="https://github.com/MauroJ13/nutzerverwaltung" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-white/5 ring-1 ring-white/10 hover:ring-white/30 transition px-4 py-2.5 text-sm font-semibold">Code ansehen</a>
+            </div>
+          </div>
+        </article>
+        <article class="lift glass rounded-3xl p-3 sm:p-4 flex flex-col min-w-0">
+          <a href="https://github.com/MauroJ13/Notiz-App" target="_blank" rel="noopener" class="shot block overflow-hidden rounded-2xl ring-1 ring-white/10">
+            <img src="/bilder/notiz.webp" alt="Screenshot der Notiz-App im Dark Mode" class="w-full aspect-video object-cover object-top">
+          </a>
+          <div class="px-3 pt-6 pb-4 flex flex-col flex-1">
+            <span class="self-start rounded-full bg-white/5 ring-1 ring-white/10 px-3 py-1 text-xs text-slate-300">Vanilla JavaScript</span>
+            <h3 class="mt-4 text-2xl font-extrabold tracking-tight">Notiz-App</h3>
+            <p class="mt-3 text-slate-400 leading-relaxed">
+              Eine schnelle Notiz-App ohne Framework: Notizen anheften, farbig markieren und durchsuchen, mit Markdown-Vorschau, Export und Hell-/Dunkel-Modus. Alles wird lokal im Browser gespeichert.
+            </p>
+            <div class="mt-5 flex flex-wrap gap-2 mono text-xs text-slate-300">
+              <span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">HTML</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">CSS</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">JavaScript</span><span class="rounded-md bg-white/5 ring-1 ring-white/10 px-2 py-1">localStorage</span>
+            </div>
+            <div class="mt-auto pt-6 flex flex-wrap gap-3">
+              <a href="https://github.com/MauroJ13/Notiz-App" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-blue-600 hover:bg-blue-500 transition px-4 py-2.5 text-sm font-semibold">Code ansehen</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Über mich: Arbeitsweise + Weiterbildung -->
+  <section id="about" class="gutter scroll-mt-24">
+    <div class="mx-auto max-w-6xl pt-28 lg:pt-36">
+      <p class="text-xs uppercase tracking-[0.2em] text-blue-400">Über mich</p>
+      <h2 class="mt-3 text-4xl lg:text-5xl font-extrabold tracking-tight max-w-3xl">Sauber gebaut. Präzise umgesetzt.</h2>
+      <p class="mt-5 text-slate-400 text-lg max-w-2xl leading-relaxed">
+        Für mich ist eine Webseite erst fertig, wenn alles stimmt: Abstände, Ladezeit, Darstellung auf dem Handy und ein Code, den man auch später noch gut versteht.
+      </p>
+
+      <div class="mt-10 grid gap-5 md:grid-cols-3">
+        <div class="lift glass rounded-2xl p-6">
+          <div class="h-11 w-11 rounded-xl bg-blue-600/15 ring-1 ring-blue-500/30 grid place-items-center text-blue-400">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"/></svg>
+          </div>
+          <h3 class="mt-5 font-bold text-lg">Sauberer Code</h3>
+          <p class="mt-2 text-sm text-slate-400 leading-relaxed">Klare Struktur mit Komponenten, BEM und TypeScript, damit ein Projekt auch beim Wachsen übersichtlich bleibt.</p>
+        </div>
+        <div class="lift glass rounded-2xl p-6">
+          <div class="h-11 w-11 rounded-xl bg-green-500/15 ring-1 ring-green-500/30 grid place-items-center text-green-400">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+          </div>
+          <h3 class="mt-5 font-bold text-lg">Präzises Ergebnis</h3>
+          <p class="mt-2 text-sm text-slate-400 leading-relaxed">Ich setze Designs genau um und teste so lange, bis jedes Detail sitzt, statt bei „fast fertig“ aufzuhören.</p>
+        </div>
+        <div class="lift glass rounded-2xl p-6">
+          <div class="h-11 w-11 rounded-xl bg-sky-500/15 ring-1 ring-sky-500/30 grid place-items-center text-sky-400">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"/></svg>
+          </div>
+          <h3 class="mt-5 font-bold text-lg">Responsive &amp; schnell</h3>
+          <p class="mt-2 text-sm text-slate-400 leading-relaxed">Mobile-first entwickelt, damit Ihre Seite auf jedem Gerät gut aussieht und schnell lädt.</p>
+        </div>
+      </div>
+
+      <!-- Weiterbildung -->
+      <div class="grad-border mt-6 p-6 sm:p-8 lg:p-10 grid lg:grid-cols-[1fr_1.2fr] gap-8 lg:gap-12 items-center">
+        <div>
+          <div class="flex items-center gap-3">
+            <div class="h-11 w-11 rounded-xl bg-white/5 ring-1 ring-white/10 grid place-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-6 h-6 text-green-400"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+            </div>
+            <span class="rounded-full bg-green-500/15 text-green-400 ring-1 ring-green-500/30 px-3 py-1 text-xs font-semibold">Abgeschlossen</span>
+          </div>
+          <h3 class="mt-5 text-2xl sm:text-3xl font-extrabold tracking-tight">Weiterbildung Frontend Developer</h3>
+          <a href="https://devkarriere.de" target="_blank" rel="noopener" class="mt-2 inline-flex items-center gap-1.5 text-blue-400 hover:text-blue-300 font-semibold">DevKarriere.de ↗</a>
+          <p class="mt-4 text-slate-400 leading-relaxed">
+            Eine praxisnahe Weiterbildung, in der ich Schritt für Schritt eigene Projekte gebaut habe, von der ersten HTML-Seite über React-Apps mit Datenbank bis zur KI-App als Abschlussprojekt.
+          </p>
+        </div>
+        <ol class="relative border-l border-white/10 ml-2 space-y-5">
+          <li class="pl-6 relative"><span class="absolute -left-[7px] top-1.5 h-3 w-3 rounded-full bg-blue-500 ring-4 ring-slate-950"></span><div class="font-semibold">HTML &amp; CSS</div><div class="text-sm text-slate-400">Semantisches HTML, Layouts, Responsive Design · Pizzeria Mamma Mia</div></li>
+          <li class="pl-6 relative"><span class="absolute -left-[7px] top-1.5 h-3 w-3 rounded-full bg-sky-500 ring-4 ring-slate-950"></span><div class="font-semibold">JavaScript &amp; DOM</div><div class="text-sm text-slate-400">Events, localStorage, Suche und Filter · Notiz-App</div></li>
+          <li class="pl-6 relative"><span class="absolute -left-[7px] top-1.5 h-3 w-3 rounded-full bg-cyan-500 ring-4 ring-slate-950"></span><div class="font-semibold">SCSS, APIs &amp; Vite</div><div class="text-sm text-slate-400">Asynchrone Daten, BEM, Build-Tools · Wetter App</div></li>
+          <li class="pl-6 relative"><span class="absolute -left-[7px] top-1.5 h-3 w-3 rounded-full bg-teal-500 ring-4 ring-slate-950"></span><div class="font-semibold">React &amp; TypeScript</div><div class="text-sm text-slate-400">Komponenten, Hooks, Context, Routing · Nutzerverwaltung, Devboard</div></li>
+          <li class="pl-6 relative"><span class="absolute -left-[7px] top-1.5 h-3 w-3 rounded-full bg-green-500 ring-4 ring-slate-950"></span><div class="font-semibold">Abschlussprojekt</div><div class="text-sm text-slate-400">KI-Anbindung, Sprachausgabe, 20 Sprachen · LinguaAI</div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="contact" class="gutter scroll-mt-24">
+    <div class="mx-auto max-w-6xl pt-28 lg:pt-36 pb-24">
+      <div class="relative overflow-hidden rounded-3xl glass p-6 sm:p-10 lg:p-14">
+        <div aria-hidden="true" class="blob absolute -right-20 -top-24 h-72 w-72 rounded-full bg-blue-600"></div>
+        <div aria-hidden="true" class="blob absolute -left-24 -bottom-24 h-72 w-72 rounded-full bg-green-500"></div>
+        <div class="relative grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+          <div>
+            <p class="text-xs uppercase tracking-[0.2em] text-blue-400">Kontakt</p>
+            <h2 class="mt-3 text-4xl lg:text-5xl font-extrabold tracking-tight">Noch Fragen?</h2>
+            <p class="mt-5 text-slate-400 text-lg leading-relaxed">
+              Zögern Sie nicht, mich zu kontaktieren. Am schnellsten erreichen Sie mich über WhatsApp, dort bin ich immer verfügbar.
+            </p>
+            <a href="https://wa.me/41782376191" target="_blank" rel="noopener" class="mt-8 inline-flex items-center gap-3 rounded-xl bg-green-600 hover:bg-green-500 transition px-5 py-3.5 font-semibold shadow-lg shadow-green-600/25">
+              <svg class="h-5 w-5 fill-white" viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.8h-.01a9.8 9.8 0 0 1-5-1.37l-.36-.21-3.72.98.99-3.63-.23-.37a9.82 9.82 0 0 1-1.5-5.24c0-5.43 4.42-9.84 9.85-9.84a9.8 9.8 0 0 1 6.96 2.89 9.78 9.78 0 0 1 2.88 6.96c0 5.43-4.42 9.84-9.84 9.84zm8.38-18.22A11.77 11.77 0 0 0 12.05.1C5.5.1.18 5.42.18 11.96c0 2.09.55 4.13 1.59 5.93L.08 24l6.27-1.64a11.84 11.84 0 0 0 5.69 1.45h.01c6.54 0 11.86-5.32 11.87-11.86a11.8 11.8 0 0 0-3.49-8.38z"/></svg>
+              Auf WhatsApp schreiben
+            </a>
+          </div>
+
+          <div class="space-y-3">
+            <div class="rounded-2xl bg-slate-950/60 ring-1 ring-white/10 p-4 sm:p-5 flex items-center gap-4">
+              <div class="h-11 w-11 shrink-0 rounded-xl bg-blue-600/15 ring-1 ring-blue-500/30 grid place-items-center text-blue-400">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/></svg>
+              </div>
+              <div class="min-w-0 flex-1">
+                <div class="text-xs text-slate-500">E-Mail</div>
+                <a href="mailto:mauro.jakic@hotmail.com" class="block font-semibold truncate select-all hover:text-blue-300" data-copy>mauro.jakic@hotmail.com</a>
+              </div>
+              <button type="button" class="copy shrink-0 rounded-lg px-3 py-1.5 text-xs font-medium ring-1 ring-white/15 text-slate-300 hover:text-white hover:ring-white/30 transition">Kopieren</button>
+            </div>
+            <div class="rounded-2xl bg-slate-950/60 ring-1 ring-white/10 p-4 sm:p-5 flex items-center gap-4">
+              <div class="h-11 w-11 shrink-0 rounded-xl bg-green-500/15 ring-1 ring-green-500/30 grid place-items-center text-green-400">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></svg>
+              </div>
+              <div class="min-w-0 flex-1">
+                <div class="text-xs text-slate-500">Telefon &amp; WhatsApp</div>
+                <a href="tel:+41782376191" class="block font-semibold truncate select-all hover:text-green-300 tabular-nums" data-copy>+41 78 237 61 91</a>
+              </div>
+              <button type="button" class="copy shrink-0 rounded-lg px-3 py-1.5 text-xs font-medium ring-1 ring-white/15 text-slate-300 hover:text-white hover:ring-white/30 transition">Kopieren</button>
+            </div>
+            <a href="https://github.com/MauroJ13" target="_blank" rel="noopener" class="group rounded-2xl bg-slate-950/60 ring-1 ring-white/10 hover:ring-white/25 transition p-4 sm:p-5 flex items-center gap-4">
+              <div class="h-11 w-11 shrink-0 rounded-xl bg-white/5 ring-1 ring-white/10 grid place-items-center">
+                <svg class="h-5 w-5 fill-slate-300" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </div>
+              <div class="min-w-0 flex-1">
+                <div class="text-xs text-slate-500">Weitere Projekte</div>
+                <div class="font-semibold">github.com/MauroJ13</div>
+              </div>
+              <span class="text-slate-400 group-hover:text-white transition">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="gutter border-t border-white/10">
+  <div class="mx-auto max-w-6xl py-6 flex flex-wrap justify-between gap-3 text-sm text-slate-500">
+    <span>&copy; 2026 Mauro Jakic · Luzern</span>
+    <a href="#start" class="hover:text-white transition">Nach oben ↑</a>
+  </div>
+</footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
